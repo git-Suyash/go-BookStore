@@ -1,0 +1,17 @@
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+
+# Ignore vendor directory (if using Go modules)
+vendor/
+
+# Ignore Go cache & dependencies
+go.sum
+go.mod
+
+# Ignore environment files
+.env
